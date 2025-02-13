@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    # Postgres
+    driverClassName: "org.postgresql.Driver"
+    url: "jdbc:postgresql://localhost:5432/bbtaxi"
+
+    username: "postgres"
+    password: "Admin1234"
+  jpa:
+    show-sql: true
+    hibernate.ddl-auto: create
